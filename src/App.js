@@ -3,10 +3,11 @@ import "./App.css";
 import { ColorBlock } from "./components";
 
 function App() {
+  const blocks = new Array(30).fill(1);
   return (
     <div className="App">
-      {[1, 2, 3].map(number => {
-        return <ColorBlock key={number} />;
+      {blocks.map((_, index) => {
+        return <ColorBlock key={index} />;
       })}
     </div>
   );

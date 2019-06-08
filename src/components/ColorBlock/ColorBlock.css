@@ -1,0 +1,16 @@
+.color-block {
+  width: 100px;
+  height: 133px;
+}
+
+.color-block--blue {
+  background-color: #130c89;
+}
+
+.color-block--red {
+  background-color: #d93422;
+}
+
+.color-block--yellow {
+  background-color: #f8db6e;
+}

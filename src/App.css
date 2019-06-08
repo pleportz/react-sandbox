@@ -1,5 +1,13 @@
 .App {
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
+  display: grid;
+  padding: 20px;
+
+  grid-template-columns: repeat(5, 18vw);
+  grid-template-rows: repeat(3, 30);
+  grid-gap: 20px;
+}
+
+.header {
+  grid-column: span 5;
+  font-size: 40px;
 }

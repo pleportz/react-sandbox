@@ -1,9 +1,11 @@
 import React from "react";
 import "./App.css";
 import { ColorBlock } from "./components";
+import images from "./images";
+
+const imageNames = Object.keys(images);
 
 function App() {
-  const blocks = new Array(20).fill(1);
   return (
     <div className="App">
       <h1>
@@ -13,8 +15,8 @@ function App() {
         </span>
       </h1>
       <div className="color-blocks">
-        {blocks.map((_, index) => {
-          return <ColorBlock key={index} />;
+        {imageNames.map(imageName => {
+          return <ColorBlock key={imageName} imageName={imageName} />;
         })}
       </div>
     </div>

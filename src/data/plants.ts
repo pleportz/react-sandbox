@@ -30,7 +30,7 @@ export const plants: Plant[] = [
   getPlant(LEMON_TREES, images.lemon_trees_20180512, new Date("2018-05-12")),
   getPlant(LEMON_TREES, images.lemon_trees_20180515, new Date("2018-05-15")),
   getPlant(LEMON_TREES, images.lemon_trees_20180529, new Date("2018-05-29")),
-  getPlant("Gotcha!", images.gotcha, new Date("2012-12-12")),
+  getPlant("Gotcha!", images.gotcha, new Date(0)),
   getPlant(LEMON_TREES, images.lemon_trees_20180604, new Date("2018-06-04")),
   getPlant(LEMON_TREES, images.lemon_trees_20180710, new Date("2018-07-10")),
   getPlant(

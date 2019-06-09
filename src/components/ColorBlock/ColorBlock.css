@@ -24,4 +24,14 @@ img {
 
 img:hover {
   opacity: 1;
+  animation: fadeImage 200ms;
+}
+
+@keyframes fadeImage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
